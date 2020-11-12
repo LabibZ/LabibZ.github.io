@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+.about {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.middle{
+    margin-top: 1.5rem;
+    position: relative;
+    transform: translate(0%, 0%);
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 15pt;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 20px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 100vw;
+}
+
+h1 {
+    font-family: "montserrat";
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 6rem;
+    text-transform: uppercase;
+}  
+
+p {
+    font-family: "Source Code Pro";
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn {
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-family: "montserrat";
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px 0;
+    border: 2px solid #c3073f;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s all ease;
+    /* s */
+    max-width: 300px;
+}
+
+.btn::before{
+    background: #c3073f;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.2s ease;
+}
+
+.btn::before{
+    width: 0%;
+    height: 100%;
+}
+
+.btn:hover::before{
+    width: 100%;
+}
