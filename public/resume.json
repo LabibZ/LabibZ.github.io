@@ -1,0 +1,220 @@
+{
+    "basic_info": {
+      "description_header": "Hello",
+      "description": "My name is Labib and I'm currently a 4th year student at the University of Toronto studying Math and Computer Science.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Birthday Game",
+        "startDate": "2021",
+        "description": " A 2D Platformer consisting of three minigames (Bench Press, Maze, Rhythm) to celebrate friend’s birthday. As the project lead, I designed and programmed most of the game including game world, UI, character movement, AI NPCs/Enemies, minigames, and music all within 4 days.",
+        "images": [
+          "images/portfolio/birthday_game/p1.png",
+          "images/portfolio/birthday_game/p2.png",
+          "images/portfolio/birthday_game/p3.png",
+          "images/portfolio/birthday_game/p4.png",
+          "images/portfolio/birthday_game/p5.png"
+        ],
+        "url": "https://drive.google.com/file/d/1OymD6-56nTbjsXl9wFJz-9UKVsp-cWkL/view",
+        "youtube": "https://www.youtube.com/watch?v=XJ8epUx2yLM",
+        "technologies": [
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
+          }
+        ]
+      },
+      {
+        "title": "3D Archery Tic-Tac-Toe",
+        "startDate": "2020",
+        "description": "Simple local multiplayer 3D tic-tac-toe game initally made using Unity and C# for a Hackathon but redeveloped in Unreal Engine and Blueprint. This project won third in LunarHacks hosted by Mozilla.",
+        "images": [
+          "images/portfolio/archery_ttt/p1.jpg",
+          "images/portfolio/archery_ttt/p2.jpg"
+        ],
+        "url": "https://devpost.com/software/archery-tic-tac-toe",
+        "youtube": "https://www.youtube.com/watch?v=yELOwKlBw_U",
+        "technologies": [
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
+          },
+          {
+            "class": "devicon-unrealengine-original",
+            "name": "UnrealEngine"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-blender-original",
+            "name": "Blender"
+          }
+        ]
+      },
+      {
+        "title": "NeRo",
+        "startDate": "2018",
+        "description": "The first game I made in High School. It is a 3D Platformer Shooter made using Unity and C#. My responsibilities included programming the AI turrets, character movement and obstacles, as well as designing all the levels.",
+        "images": [
+          "images/portfolio/nero/p1.png",
+          "images/portfolio/nero/p2.png",
+          "images/portfolio/nero/p3.png",
+          "images/portfolio/nero/p4.png"
+        ],
+        "youtube": "https://www.youtube.com/watch?v=ubojP41OGEc",
+        "technologies": [
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-blender-original",
+            "name": "Blender"
+          },
+          {
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
+          }
+        ]
+      },
+      {
+        "title": "Social App Prototype",
+        "startDate": "2020",
+        "description": "A social app that would connect the older generations with the younger ones by sharing advice with one another. Conducted research with the elderly community to maximize User Experience and design an efficient User Interface.",
+        "images": [
+          "images/portfolio/figma/p1.png",
+          "images/portfolio/figma/p2.png",
+          "images/portfolio/figma/p3.png",
+          "images/portfolio/figma/p4.png"
+        ],
+        "url": "https://www.figma.com/proto/XgeNTCfJWJ832S7ZnO16fp/Hi-Fi-Prototype?node-id=195%3A2361&scaling=min-zoom",
+        "youtube": "https://www.youtube.com/watch?v=xArKLByn1p4",
+        "technologies": [
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
+          },
+          {
+            "class": "fas fa-object-group",
+            "name": "UI/UX"
+          }
+        ]
+      },
+      {
+        "title": "Trivia Game",
+        "startDate": "2020",
+        "description": "A social app that would connect the older generations with the younger ones by sharing advice with one another. Conducted research with the elderly community to maximize User Experience and design an efficient User Interface.",
+        "images": [
+          "images/portfolio/trivia/p1.jpg",
+          "images/portfolio/trivia/p2.png",
+          "images/portfolio/trivia/p3.png",
+          "images/portfolio/trivia/p4.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-photoshop-plain",
+            "name": "Photoshop"
+          }
+        ]
+      },
+      {
+        "title": "ViMAPS",
+        "startDate": "2020",
+        "description": "Built an android app under 36 hours as a team of 4 for the University of Windsor hackathon, WinHacks. Used a variety of APIs and algorithms, such as the Google Maps API and the harvesine function when creating our distance calculation algorithm.",
+        "images": [
+          "images/portfolio/vimaps/p1.jpg",
+          "images/portfolio/vimaps/p2.png"
+        ],
+        "url": "https://devpost.com/software/temporary-project-name-xlb9zj",
+        "youtube": "https://www.youtube.com/watch?v=TYntyoCt9Yw",
+        "github": "https://github.com/ThaniSangarapillai/COVID-Stalker",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Magna International",
+        "title": "Software Engineering Intern (16 months)",
+        "years": "05.2021 - 08.2022",
+        "mainTech": [
+          "C++"
+        ],
+        "technologies": [
+          "C++",
+          "Python",
+          "Visual Studio",
+          "Vector CANoe",
+          "Git"
+        ]
+      },
+      {
+        "company": "Bank of Canada",
+        "title": "IT Systems Development (8 months)",
+        "years": "09.2020 - 04.2021",
+        "mainTech": [
+          "Python"
+        ],
+        "technologies": [
+          "Python",
+          "pandas",
+          "Jupyter",
+          "PowerShell",
+          "Git"
+        ]
+      },
+      {
+        "company": "University of Toronto",
+        "title": "Math and Computer Science",
+        "years": "09.2018 - 12.2023",
+        "mainTech": [
+          "BSc"
+        ],
+        "technologies": [
+          "Software Design",
+          "Data Structures and Analysis",
+          "UI/UX",
+          "Computational Theory",
+          "Systems Programming",
+          "Operating Systems"
+        ]
+      }
+    ]
+  }

@@ -1,29 +1,82 @@
-import React from 'react';
-import './App.css';
-import './style.css';
-import './index.css';
-import { Switch, Route, BrowserRouter} from 'react-router-dom';
+import React, { Component } from "react";
+import $ from "jquery";
+import "./App.scss";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
-import About from './components/about';
-import Contact from './components/contact';
-import Projects from './components/projects';
-import Menu from './components/menu';
-import Footer from './components/footer';
+class App extends Component {
 
-function App() {
-  return (
-    <div className="container">
-      <BrowserRouter>
-        <Menu/>
-        <Switch> 
-          <Route exact path="/" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/projects" component={Projects} />
-        </Switch>
-      </BrowserRouter>
-      <Footer/>
-    </div>
-  );
+  constructor(props) {
+    super();
+    this.state = {
+      foo: "bar",
+      resumeData: {},
+      sharedData: {},
+    };
+  }
+
+  componentDidMount() {
+    this.loadSharedData();
+    this.loadResumeFromPath(`resume.json`);
+  }
+
+  loadResumeFromPath(path) {
+    $.ajax({
+      url: path,
+      dataType: "json",
+      cache: false,
+      success: function (data) {
+        this.setState({ resumeData: data });
+      }.bind(this),
+      error: function (xhr, status, err) {
+        alert(err);
+      },
+    });
+  }
+
+  loadSharedData() {
+    $.ajax({
+      url: `portfolio_shared_data.json`,
+      dataType: "json",
+      cache: false,
+      success: function (data) {
+        this.setState({ sharedData: data });
+        document.title = `${this.state.sharedData.basic_info.name}`;
+      }.bind(this),
+      error: function (xhr, status, err) {
+        alert(err);
+      },
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <Header sharedData={this.state.sharedData.basic_info} />
+        <About
+          resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedBasicInfo={this.state.sharedData.basic_info}
+        />
+        <Projects
+          resumeProjects={this.state.resumeData.projects}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Skills
+          sharedSkills={this.state.sharedData.skills}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Experience
+          resumeExperience={this.state.resumeData.experience}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+      </div>
+    );
+  }
 }
 
 export default App;
