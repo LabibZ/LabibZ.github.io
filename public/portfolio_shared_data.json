@@ -34,6 +34,11 @@
           "level": "95"
         },
         {
+          "name": "Godot",
+          "class": "devicon-godot-plain",
+          "level": "95"
+        },
+        {
           "name": "Python",
           "class": "devicon-python-plain",
           "level": "95"

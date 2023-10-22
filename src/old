@@ -1,0 +1,22 @@
+{
+        "title": "ViMAPS",
+        "startDate": "2020",
+        "description": "Built an android app under 36 hours as a team of 4 for the University of Windsor hackathon, WinHacks. Used a variety of APIs and algorithms, such as the Google Maps API and the harvesine function when creating our distance calculation algorithm.",
+        "images": [
+          "images/portfolio/vimaps/p1.jpg",
+          "images/portfolio/vimaps/p2.png"
+        ],
+        "url": "https://devpost.com/software/temporary-project-name-xlb9zj",
+        "youtube": "https://www.youtube.com/watch?v=TYntyoCt9Yw",
+        "github": "https://github.com/ThaniSangarapillai/COVID-Stalker",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }

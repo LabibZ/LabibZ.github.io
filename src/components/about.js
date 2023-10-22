@@ -3,8 +3,30 @@ import { Icon } from "@iconify/react";
 import unityIcon from "@iconify/icons-logos/unity";
 import unrealIcon from '@iconify/icons-logos/unrealengine-icon';
 import gameController from '@iconify/icons-ion/game-controller';
+import '../scss/about.css';
+import resume from "../resume.pdf";
 
 class About extends Component {
+  function($) {
+    /*---------------------------------------------------- */
+  	/* Smooth Scrolling
+  	------------------------------------------------------ */
+  	$('.smoothscroll').on('click', function (e) {
+	 	
+      e.preventDefault();
+ 
+      var target = this.hash,
+       $target = $(target);
+ 
+       $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+       }, 800, 'swing', function () {
+         window.location.hash = target;
+       });
+ 
+     });  
+  }
+  
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
@@ -21,7 +43,7 @@ class About extends Component {
           <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
-          <div className="row center mx-auto mb-5">
+          <div className="row center mx-auto bm-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
@@ -69,25 +91,30 @@ class About extends Component {
                     ></span>
                   </div>
                   <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    className="card-body font-trebuchet ml-3 mr-3"
                     style={{ 
                       height: "auto",
-                      fontSize: "132%",
+                      fontSize: "160%",
                       lineHeight: "200%"
                     }}
                   >
-                    <span className="wave">{hello}!</span>
+                    <span className="wave">{hello}Hi, I'm Labib!</span>
                     <br />
                     <br />
-                    My name is Labib and I'm currently a 4th year student at the University of Toronto studying Math and Computer Science. In my spare time besides programming, I partake in:
-                    <br />• Photography 📷
-                    <br />• Muay Thai 👊
-                    <br />• Video Games 🎮
-                    <br />I am very enthusiastic about game development and would love to work in the industry to allow me to pursue my passion. 
+                    I'm a <b>game developer</b> and <b>software developer</b> currently on my last semester at the University of Toronto studying Math and Computer Science.
+                    <br /><br /> When I'm not programming, I partake in Photography 📷, Muay Thai 👊, and Video Games 🎮. Currently, I'm playing
+                    <b> Baldur's Gate 3</b>, <b>Age of Empires IV</b>, and <b>Counter Strike 2</b>. 
+                    Feel free to reach out to talk more about anything, whether it be photography, video games, or your favourite show/anime!
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div className="row button-section">
+            <div className="col-twelve">
+              <a href="https://www.linkedin.com/in/labibmz/" title="Hire Me" className="button stroke smoothscroll">Hire Me</a>
+              <a href={resume} download="resume" target="_blank" rel="noreferrer"title="Download CV" className="button button-primary">Download CV</a>
+            </div>   		
           </div>
         </div>
       </section>
