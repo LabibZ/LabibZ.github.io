@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3edbe15e46440f76726381ceb020d3a",
+    "revision": "12d631d145029ed648416afea9a61681",
     "url": "/index.html"
   },
   {
-    "revision": "3b82b2201d4fc17f4022",
+    "revision": "3434ef6909f8c5e87787",
     "url": "/static/css/2.d64471e2.chunk.css"
   },
   {
-    "revision": "eb5a62d3357d614c2041",
+    "revision": "b02a0b6708fac564a950",
     "url": "/static/css/main.1516873f.chunk.css"
   },
   {
-    "revision": "3b82b2201d4fc17f4022",
-    "url": "/static/js/2.ddd84a60.chunk.js"
+    "revision": "3434ef6909f8c5e87787",
+    "url": "/static/js/2.c60bf62c.chunk.js"
   },
   {
     "revision": "11ca46c823a4b84350ec19bfb1cbb5cf",
-    "url": "/static/js/2.ddd84a60.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c60bf62c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb5a62d3357d614c2041",
-    "url": "/static/js/main.21cfc3d6.chunk.js"
+    "revision": "b02a0b6708fac564a950",
+    "url": "/static/js/main.d6ea2ecd.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/poppins-bold-webfont.c7422667.woff"
   },
   {
-    "revision": "147bd2271fa5deca33f8e087215af127",
-    "url": "/static/media/resume.147bd227.pdf"
+    "revision": "011cb22cf304077f9acb4445b9587d46",
+    "url": "/static/media/resume.011cb22c.pdf"
   }
 ]);
