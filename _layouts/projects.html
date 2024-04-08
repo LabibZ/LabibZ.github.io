@@ -2,12 +2,22 @@
 layout: default
 ---
 
-{% for project in site.projects reversed %}
-<article role="article">
-  <h2><a href="{{ site.baseurl }}{{ project.url }}">
-    {{ project.title }}
-  </a></h2>
-  <p>{{ project.summary }}</p>
-    <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
-</article>
+<h1 class="header-title center">{{ page.title }}</h1>
+<div class="projects">
+{% for category in page.display_categories %}
+  <p id="{{ category }}" href=".#{{ category }}">
+    <h3 class="category">{{ category }}</h3>
+  </p>
+  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% for project in sorted_projects %}
+  <article role="article">
+    <h2><a href="{{ site.baseurl }}{{ project.url }}">
+      {{ project.title }}
+    </a></h2>
+    <!-- <p>{{ project.summary }}</p>
+      <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.year}}</time> -->
+  </article>
+  {% endfor %}
 {% endfor %}
+</div>

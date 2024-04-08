@@ -1,30 +1,27 @@
-site: Ultra
-url: https://example.com
+site: Labib Zaman
+url: https://labibz.github.io/
 title: Ultra
-description: Ultra - Super fast Jekyll theme, weighs under 2kb
-twitter:
-  username: yourusername
-  card: summary
+description: Software developer, photographer, and a fighter. I write about my experiences and thoughts. Based in Toronto, Canada.
 
 permalink: pretty
 
-paginate:            1000
-paginate_path:       "/page:num/"
-baseurl:             ""
-  
+paginate: 1000
+paginate_path: "/page:num/"
+baseurl: ""
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
 plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   pages:
@@ -36,32 +33,28 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       path: ""
       type: "projects"
     values:
       layout: "project"
-      
+
   - scope:
       path: "assets/images"
     values:

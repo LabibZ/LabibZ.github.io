@@ -1,21 +1,12 @@
 ---
 layout: page
-title: About
+title: about
 ---
 
-## Ultra - Super fast Jekyll theme 
+<img src="{{site.url}}/assets/img/about.JPG" class="about"/>
 
-Super fast, minimal one-column portfolio/blog theme built for Jekyll. Theme weighs under <strong>2kb</strong>. Perfect for your personal website, blog and portfolio.
+Hi, I'm Labib.
 
-### Key features
+I'm a software developer based in Toronto, Canada. I completed my Bachelor of Science in Math and Computer Science at the University of Toronto.
 
-- seo optimized
-- weighs under 2kb
-- portfolio/blog pages
-- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
-- responsive
-- inline css
-- compressed css, html
-- sitemap
-- robots.txt
-- atom feed
+Outside of work, I am a nerd for muay thai and enjoy taking photos of stone buildings and photos of people so terrible that they would rather I don't. Take a look here.
