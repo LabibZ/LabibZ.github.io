@@ -1,11 +1,23 @@
 ---
 layout: project
-title: Full-stack Real Estate Marketplace
+title: Real Estate Marketplace App
 description: Full-stack Real Estate Marketplace
-summary: 
+summary: a real estate app for viewing and managing residential properties.
 importance: 1
 category: web dev
-year: 2024
+year: Mar 2024
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<div class="center">
+  <a class="tech-link" target="_blank" rel="noopener noreferrer" href="https://github.com/LabibZ/mern-estate">Github</a>
+</div>
+
+A Real Estate web application for viewing and managing properties.
+![Main](/assets/img/mern_1.png)
+![Listings](/assets/img/mern_2.png)
+
+A small project to showcase the usage of a modern web development stack (MERN). This app includes all the basic functionality 
+needed for a real estate application including, but not limited to: secure user access, functionality for creating, reading, 
+updating, and deleting real estate listings, and advanced search functionality.
+ 
+**Tech:** _MongoDB, Express.js, React.js, Node.js, HTML, Tailwind CSS, JWT, Firebase, Google OAuth_

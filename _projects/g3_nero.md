@@ -1,11 +1,19 @@
 ---
 layout: project
-title: 3D Shooter Platformer Game
+title: NeRo
 description: 3D Shooter Platformer Game | NeRo
-summary: 
+summary: a 3d shooter platformer game. made in unity. 
 importance: 3
 category: game dev
-year: 2022
+year: 
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<div class="center">
+  <a class="tech-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=ubojP41OGEc">Demo</a>
+</div>
+
+A 3D Shooter Platformer game.
+![nero](/assets/img/nero.jpg)
+My first project with Unity. Simple 3 level platformer with many laser obstacles, giant balls, tricky parkour, and shooting turrets. (But you have a gun so you can shoot back!). As for the art, I aimed to make it look futuristic.
+
+**Tech:** _Unity, C#, Blender_

@@ -1,11 +1,22 @@
 ---
 layout: project
-title: 2D Cafe Simulation Game
+title: Boo & Brew
 description: 2D Cafe Simulation Game
-summary: 
+summary: a 2d cafe simulation game. made in godot.
 importance: 1
 category: game dev
-year: 2023
+year: Nov 2023
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<div class="center">
+  <a class="tech-link" target="_blank" rel="noopener noreferrer" href="https://labibz.itch.io/boo-brew-cafe">itch.io</a> | 
+  <a class="tech-link" target="_blank" rel="noopener noreferrer" href="https://github.com/LabibZ/CozyAutumnJam">Github</a> | 
+  <a class="tech-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=U00kJenx2TE">Demo</a>
+</div>
+
+A 2D Cafe Simulation game.
+![Cafe](/assets/img/cafe.png)
+
+Boo & Brew was created over the span of a week using the Godot engine. Originally inspired by popular titlles Overcooked and Plate Up. 
+
+**Tech:** _Godot, GDScript, Aseprite_

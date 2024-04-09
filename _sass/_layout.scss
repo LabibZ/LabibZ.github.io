@@ -139,35 +139,9 @@ footer {
 // Projects
 .projects {
   a {
+    color: #005197;
+    font-weight: normal;
     text-decoration: none;
-
-    &:hover {
-      .card-title {
-        color: var(black);
-      }
-    }
-  }
-
-  .card {
-    img {
-      width: 100%;
-    }
-  }
-
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
-  }
-
-  .grid-sizer,
-  .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
   }
 
   h3.category {
@@ -178,4 +152,43 @@ footer {
     margin-bottom: 1rem;
     text-align: right;
   }
+  h4 {
+    padding-right: 7rem;
+    margin-top: 0.7em;
+    margin-bottom: 0;
+    span {
+      font-weight: normal;
+    }
+  }
+}
+
+.post{
+  max-width: 620px;
+  // padding: 2rem;
+  margin: auto;
+}
+
+.tech-link {
+  color: #005197;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.row {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.muted {
+  text-decoration: none;
+}
+
+.small {
+  font-size: 0.8em;
+  font-weight: normal;
 }
