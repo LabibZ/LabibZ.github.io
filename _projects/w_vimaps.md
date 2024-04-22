@@ -3,7 +3,7 @@ layout: project
 title: Crowd Avoidance App
 description: Crowd Avoidance App | ViMAPS
 summary: a tool used to avoid crowds and high risk environments.
-importance: 2
+importance: 3
 category: web dev
 year: 2020
 ---

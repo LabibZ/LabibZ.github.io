@@ -3,7 +3,7 @@ layout: project
 title: Real Estate Marketplace App
 description: Full-stack Real Estate Marketplace
 summary: a real estate app for viewing and managing residential properties.
-importance: 1
+importance: 2
 category: web dev
 year: Mar 2024
 ---
