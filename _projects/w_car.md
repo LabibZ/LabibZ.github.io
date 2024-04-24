@@ -2,7 +2,7 @@
 layout: project
 title: Car Showcase App
 description: Car Showcase App
-summary: a real estate app for viewing and managing residential properties.
+summary: a showcase app for displaying different cars and their properties.
 importance: 1
 category: web dev
 year: Apr 2024
@@ -16,7 +16,7 @@ year: Apr 2024
 A Car showcase application for viewing and renting cars.
 ![Main](/assets/img/car.png)
 
-Developed with Next.js and leveraging its server-side rendering capabilities, this website presents various car types, 
+Developed with Next.js and leveraging its server-side rendering capabilities, this website presents various car types,
 showcasing comprehensive information in a well-designed format with advanced filtering and pagination support for an enhanced user experience.
 
 **Tech:** _Typescript, Next.js, Tailwind CSS_
