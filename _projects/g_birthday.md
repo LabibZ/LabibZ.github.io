@@ -3,7 +3,7 @@ layout: project
 title: Birthday Celebration Game
 description: Birthday Celebration Game | 2D Platformer & Minigames
 summary: a 2d platformer with minigames. made in unity.
-importance: 2
+importance: 3
 category: game dev
 year: Jan 2022
 ---

@@ -3,7 +3,7 @@ layout: project
 title: Boo & Brew
 description: 2D Cafe Simulation Game
 summary: a 2d cafe simulation game. made in godot.
-importance: 1
+importance: 2
 category: game dev
 year: Nov 2023
 ---
@@ -17,6 +17,6 @@ year: Nov 2023
 A 2D Cafe Simulation game.
 ![Cafe](/assets/img/cafe.png)
 
-Boo & Brew was created over the span of a week using the Godot engine. Originally inspired by popular titlles Overcooked and Plate Up. 
+Boo & Brew was created over the span of a week using the Godot engine. Originally inspired by popular titles Overcooked and Plate Up.
 
 **Tech:** _Godot, GDScript, Aseprite_

@@ -3,7 +3,7 @@ layout: project
 title: NeRo
 description: 3D Shooter Platformer Game | NeRo
 summary: a 3d shooter platformer game. made in unity. 
-importance: 3
+importance: 4
 category: game dev
 year: 
 ---
