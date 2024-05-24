@@ -23,34 +23,34 @@ category: hobby
   </div>
   <div class="row">
     <div class="column" style="flex: 100%;">
-      <img src="/assets/img/photography/DSF4031.JPG" loading="lazy">
+      <img src="/assets/img/photography/DSF4031.JPG" >
     </div>
   </div>
   <div class="row">
     <div class="column" style="flex: 75%;">
-      <img src="/assets/img/photography/DSF5658.JPG" loading="lazy">
+      <img src="/assets/img/photography/DSF5658.JPG" >
     </div>
     <div class="column" style="flex: 33.3%;">
-      <img src="/assets/img/photography/DSF3722.JPG" loading="lazy">
+      <img src="/assets/img/photography/DSF3722.JPG" >
     </div>
   </div>
   <div class="row">
     <div class="column" style="flex: 33%;">
-      <img src="/assets/img/photography/DSF2586.JPG" loading="lazy">
+      <img src="/assets/img/photography/DSF2586.JPG" >
     </div>
     <div class="column" style="flex: 33%;">
-      <img src="/assets/img/photography/DSF3424.JPG" loading="lazy">
+      <img src="/assets/img/photography/DSF3424.JPG" >
     </div>
     <div class="column" style="flex: 33%;">
-      <img src="/assets/img/photography/DSF5650.JPG" loading="lazy">
+      <img src="/assets/img/photography/DSF5650.JPG" >
     </div>
   </div>
   <div class="row">
     <div class="column" style="flex: 75%">
-      <img src="/assets/img/photography/DSF4632.JPG" loading="lazy">
+      <img src="/assets/img/photography/DSF4632.JPG" >
     </div>
     <div class="column" style="flex: 33.3%" >
-      <img src="/assets/img/photography/DSF2247.JPG" loading="lazy">
+      <img src="/assets/img/photography/DSF2247.JPG" >
     </div>
   </div>
   <div class="row">
