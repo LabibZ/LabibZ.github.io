@@ -47,7 +47,7 @@ category: hobby
   </div>
   <div class="row">
     <div class="column" style="flex: 75%">
-      <img src="/assets/img/DSF4632.jpg" >
+      <img src="/assets/img/photography/DSF4632.jpg" >
     </div>
     <div class="column" style="flex: 33.3%" >
       <img src="/assets/img/photography/DSF2247.jpg" >
