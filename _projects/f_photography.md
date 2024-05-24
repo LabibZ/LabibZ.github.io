@@ -10,27 +10,27 @@ category: hobby
 <body class="photography-page">
   <div class="row">
     <div class="column" style="flex: 100%;">
-      <img src="/assets/img/photography/DSF2578.jpg" >
+      <img src="/assets/img/photography/DSF2578.JPG" >
     </div>
   </div>
   <div class="row">
     <div class="column" style="flex: 50%;">
-      <img src="/assets/img/photography/DSF1992.jpg" >
+      <img src="/assets/img/photography/DSF1992.JPG" >
     </div>
     <div class="column" style="flex: 50%;">
-      <img src="/assets/img/photography/DSF3411.jpg" >
+      <img src="/assets/img/photography/DSF3411.JPG" >
     </div>
   </div>
   <div class="row">
     <div class="column" style="flex: 100%;">
-      <img src="/assets/img/photography/DSF4031.jpg" >
+      <img src="/assets/img/photography/DSF4031.JPG" >
     </div>
   </div>
   <div class="row">
     <div class="column" style="flex: 75%;">
       <img src="/assets/img/photography/DSF5658.JPG" >
     </div>
-    <div class="column" style="flex: 33.3%;">
+    <div class="column" style="flex: 33.33%;">
       <img src="/assets/img/photography/DSF3722.JPG" >
     </div>
   </div>
@@ -49,7 +49,7 @@ category: hobby
     <div class="column" style="flex: 75%">
       <img src="/assets/img/photography/DSF4632.jpg" >
     </div>
-    <div class="column" style="flex: 33.3%" >
+    <div class="column" style="flex: 33.33%" >
       <img src="/assets/img/photography/DSF2247.JPG" >
     </div>
   </div>
