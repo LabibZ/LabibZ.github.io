@@ -28,21 +28,21 @@ category: hobby
   </div>
   <div class="row">
     <div class="column" style="flex: 75%;">
-      <img src="/assets/img/photography/DSF5658.jpg" >
+      <img src="/assets/img/photography/DSF5658.JPG" >
     </div>
     <div class="column" style="flex: 33.3%;">
-      <img src="/assets/img/photography/DSF3722.jpg" >
+      <img src="/assets/img/photography/DSF3722.JPG" >
     </div>
   </div>
   <div class="row">
     <div class="column" style="flex: 33%;">
-      <img src="/assets/img/photography/DSF2586.jpg" >
+      <img src="/assets/img/photography/DSF2586.JPG" >
     </div>
     <div class="column" style="flex: 33%;">
-      <img src="/assets/img/photography/DSF3424.jpg" >
+      <img src="/assets/img/photography/DSF3424.JPG" >
     </div>
     <div class="column" style="flex: 33%;">
-      <img src="/assets/img/photography/DSF5650.jpg" >
+      <img src="/assets/img/photography/DSF5650.JPG" >
     </div>
   </div>
   <div class="row">
@@ -50,20 +50,20 @@ category: hobby
       <img src="/assets/img/photography/DSF4632.jpg" >
     </div>
     <div class="column" style="flex: 33.3%" >
-      <img src="/assets/img/photography/DSF2247.jpg" >
+      <img src="/assets/img/photography/DSF2247.JPG" >
     </div>
   </div>
   <div class="row">
     <div class="column" style="flex: 33.33%">
-      <img src="/assets/img/photography/DSF3587.jpg" >
+      <img src="/assets/img/photography/DSF3587.JPG" >
     </div>
     <div class="column" style="flex: 75%" >
-      <img src="/assets/img/photography/DSF5685.jpg" >
+      <img src="/assets/img/photography/DSF5685.JPG" >
     </div>
   </div>
   <div class="row">
     <div class="column" style="flex: 100%;">
-      <img src="/assets/img/photography/DSF5557.jpg" >
+      <img src="/assets/img/photography/DSF5557.JPG" >
     </div>
   </div>
 </body>
