@@ -162,7 +162,7 @@ footer {
   }
 }
 
-.post{
+.post {
   max-width: 620px;
   // padding: 2rem;
   margin: auto;
@@ -178,11 +178,51 @@ footer {
   text-align: center;
 }
 
-.row {
-  margin-top: 0;
-  margin-bottom: 0;
-  display: flex;
+.photography-page {
+  max-width: none; /* Remove the max-width constraint */
+  padding: 0; /* Remove the padding */
 }
+.photography-page .row {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.photography-page img {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.photography-page .post {
+  max-width: 70%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  margin: 0;
+}
+
+.column {
+  flex: 1;
+  padding: 0;
+}
+
+// .row {
+//   margin-top: 0;
+//   margin-bottom: 0;
+//   display: flex;
+//   line-height: 0;
+// }
+// .column {
+//   flex: 100%;
+//   padding: 0;
+// }
+// .project-img {
+//   width: 100%;
+//   display: block;
+//   margin: 0;
+// }
 
 .muted {
   text-decoration: none;
