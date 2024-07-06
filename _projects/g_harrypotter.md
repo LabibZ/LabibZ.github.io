@@ -4,7 +4,7 @@ title: Harry Potter Crush
 description: A match-3 game
 summary: a mobile match-3 game. made in unity.
 importance: 1
-category: game dev
+category:
 year: Apr 2024
 ---
 
